@@ -1,0 +1,45 @@
+body {
+  color: #ffffff; }
+
+#hero {
+  background: url("../assets/bg.jpg") no-repeat;
+  background-size: cover;
+  background-position: 0 60%; }
+
+.navbar {
+  width: 100%;
+  background: none !important; }
+  @media (max-width: 34em) {
+    .navbar {
+      background: black !important; } }
+  .navbar .navbar-toggler {
+    cursor: pointer;
+    outline: 0; }
+  .navbar .nav-link {
+    text-transform: uppercase;
+    font-weight: bold; }
+  .navbar .nav-item {
+    padding: 0 1rem; }
+    @media (max-width: 34em) {
+      .navbar .nav-item {
+        padding: 0; } }
+    @media (max-width: 34em) {
+      .navbar .nav-item .nav-link {
+        font-weight: normal;
+        color: #ffffff !important; } }
+
+.custom-toggler.navbar-toggler {
+  border-color: #6a6e7c; }
+
+.custom-toggler .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/PjwhRE9DVFlQRSBzdmcgIFBVQkxJQyAnLS8vVzNDLy9EVEQgU1ZHIDEuMS8vRU4nICAnaHR0cDovL3d3dy53My5vcmcvR3JhcGhpY3MvU1ZHLzEuMS9EVEQvc3ZnMTEuZHRkJz48c3ZnIGVuYWJsZS1iYWNrZ3JvdW5kPSJuZXcgMCAwIDUxMiA1MTIiIGlkPSJMYXllcl8xIiB2ZXJzaW9uPSIxLjEiIHZpZXdCb3g9IjAgMCA1MTIgNTEyIiB4bWw6c3BhY2U9InByZXNlcnZlIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIj48Zz48cGF0aCBkPSJNNTAxLjUsNzkuN0gxMC41QzQuNyw3OS43LDAsNzUsMCw2OS4yYzAtNS44LDQuNy0xMC41LDEwLjUtMTAuNWg0OTAuOWM1LjgsMCwxMC41LDQuNywxMC41LDEwLjUgICBDNTEyLDc1LDUwNy4zLDc5LjcsNTAxLjUsNzkuN3oiIGZpbGw9IiM2QTZFN0MiLz48cGF0aCBkPSJNNTAxLjUsMjY2LjVIMTAuNUM0LjcsMjY2LjUsMCwyNjEuOCwwLDI1NmMwLTUuOCw0LjctMTAuNSwxMC41LTEwLjVoNDkwLjljNS44LDAsMTAuNSw0LjcsMTAuNSwxMC41ICAgQzUxMiwyNjEuOCw1MDcuMywyNjYuNSw1MDEuNSwyNjYuNXoiIGZpbGw9IiM2QTZFN0MiLz48cGF0aCBkPSJNNTAxLjUsNDUzLjRIMTAuNWMtNS44LDAtMTAuNS00LjctMTAuNS0xMC41czQuNy0xMC41LDEwLjUtMTAuNWg0OTAuOWM1LjgsMCwxMC41LDQuNywxMC41LDEwLjUgICBTNTA3LjMsNDUzLjQsNTAxLjUsNDUzLjR6IiBmaWxsPSIjNkE2RTdDIi8+PC9nPjwvc3ZnPg=="); }
+
+h1 {
+  font-weight: bold;
+  font-size: 3.5em; }
+
+.hero-img {
+  width: 80%; }
+
+.feature-wrapper {
+  color: #000000; }
